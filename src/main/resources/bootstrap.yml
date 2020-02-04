@@ -1,6 +1,6 @@
 spring:
   application:
-    name: eureka
+    name: hitss-eureka-server
   cloud:
     config:
-      uri: ${CONFIG_SERVER_URL:http://localhost:8888}
+      uri: ${CONFIG_SERVER_URL:http://35.199.113.132:8888}
